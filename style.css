@@ -1,0 +1,190 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal
+}
+
+ul {
+  list-style: none
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0
+}
+
+html {
+  box-sizing: border-box
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%
+}
+
+iframe {
+  border: 0
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+td,
+th {
+  padding: 0
+}
+
+td:not([align]),
+th:not([align]) {
+  text-align: left
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+.max-width {
+  max-width: 1100px;
+  width: 100%;
+}
+
+.main-content {
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.person-image {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+}
+
+.person-title {
+  text-align: center;
+  font-size: 42px;
+  margin: 20px auto;
+}
+
+.person-description {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.figure {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.image-description {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 16px;
+  max-width: 80%;
+  margin: 10px auto;
+}
+
+.tribute-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headline {
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+.timeline{
+  font-size: 16px;
+  list-style: disc;
+}
+.timeline__item{
+  margin-bottom: 20px;
+  width: 100%;
+}
+.year{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.year::after{
+  content: ":";
+}
+.time-caption{
+  max-width: 600px;
+}
+.read-more{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.read-more__link{
+  color: cadetblue;
+}
+.read-more__link:visited{
+  color: #74638f;
+}
